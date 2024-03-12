@@ -8,11 +8,11 @@ const params = {
         enabled: true,
     },
     breakpoints: {
-        769: {
+        1025: {
             slidesPerView: 2,
             slidesPerGroup: 1,
         },
-        369: {
+        769: {
             slidesPerView: 1,
             slidesPerGroup: 1,
         },
