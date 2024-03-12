@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link href="./css/output.css" rel="stylesheet">
 </head>
@@ -29,8 +30,8 @@
     <!-- All Content of Home Page -->
     <section class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito">
         <!-- Landing Page -->
-        <div
-            class="flex xl:flex-row flex-col items-center justify-center  gap-[30px] md:mt-[101px] lg:pl-[80px] w-full ">
+        <div class="flex xl:flex-row flex-col items-center justify-center  gap-[30px] md:mt-[101px] lg:pl-[80px] w-full "
+            data-aos="fade-down">
             <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] px-5  ">
                 <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-secondary">Your Partner in Business
                     Success
@@ -61,7 +62,7 @@
             class="relative flex items-center justify-center lg:h-[534px] p-10 bg-backgroundColor overflow-hidden font-semibold ">
             <div class="circle absolute -top-20 -left-36 bg-primary"></div>
             <div class="circle absolute -bottom-24 -right-48 bg-primary"></div>
-            <div class="flex items-center justify-center flex-wrap gap-6  xl:w-[992px] z-10">
+            <div class="flex items-center justify-center flex-wrap gap-6  xl:w-[992px] z-10" data-aos="fade-up">
                 <div
                     class="flex flex-col items-center justify-center bg-white rounded-lg w-[284px] h-[248px] text-[20px]">
                     <img src="../images/home-image2.png" alt="">
@@ -84,8 +85,9 @@
             class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] w-full overflow-hidden">
             <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
             <div class="circle absolute bottom-2 -right-48 bg-tertiary"></div>
-            <img class="w-[567px] h-auto" src="../images/home-image5.png" alt="">
-            <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center px-5">
+            <img class="w-[567px] h-auto" src="../images/home-image5.png" alt="" data-aos="fade-right">
+            <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center px-5"
+                data-aos="fade-left">
                 <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-black">About Us</h3>
                 <h1 class="2xl:text-[50px] md:text-[50px] text-[30px]  font-bold text-tertiary">
                     Innovation at Every Step
@@ -103,7 +105,7 @@
         </div>
 
         <!-- Another Container Logos-->
-        <div class="flex  items-center justify-center min-h-[207px] py-14">
+        <div class="flex  items-center justify-center min-h-[207px] py-14" data-aos="fade-up">
             <div class="flex flex-wrap gap-7 items-center justify-center bg-white">
                 <img class="lg:w-[246px] w-[150px] h-auto" src="../images/home-image6.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="../images/home-image7.png" alt="">
@@ -114,7 +116,7 @@
 
         <!-- Another Container Video-->
         <div class="lg:px-[67px] lg:py-[62px] md:px-8 md:py-8 px-5 py-5  flex justify-center">
-            <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden">
+            <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden" data-aos="zoom-in">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/wAmbDCJocJM?si=WIKJo1AJedSgzh7p"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -137,7 +139,7 @@
                 <swiper-container class="flex  mySwiper xl:w-[1250px] h-[400px] justify-center w-screen " init="false">
                     <swiper-slide class="hidden"></swiper-slide>
 
-                    <swiper-slide class="w-screen px-5">
+                    <swiper-slide class="w-screen px-5" data-aos="fade-right">
                         <div
                             class=" flex flex-col items-center justify-center md:w-[573px] md:h-[322px] w-full p-5  rounded-2xl bg-white">
                             <p class="md:w-[454px] md:h-[176px]  text-justify py-3">Working with Talent Us
@@ -161,7 +163,7 @@
                             </div>
                         </div>
                     </swiper-slide>
-                    <swiper-slide class="w-screen px-5">
+                    <swiper-slide class="w-screen px-5" data-aos="fade-left">
                         <div
                             class=" flex flex-col items-center justify-center md:w-[573px] md:h-[322px] w-full p-5  rounded-2xl bg-white">
                             <p class="md:w-[454px] md:h-[176px]  text-justify py-3">Working with Talent Us
@@ -266,7 +268,7 @@
         </div>
 
         <!-- Another Container last -->
-        <div class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5">
+        <div class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5" data-aos="zoom-out">
             <div
                 class="flex xl:flex-row flex-col items-center justify-center bg-tertiary md:p-[50px] px-5 font-Poppins rounded-[18px] w-[1290px]">
                 <div class=" flex flex-col items-start gap-[25px] h-[416px] justify-center sm:w-[537px]">
@@ -301,8 +303,10 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/script.js"></script>
+
 
 
 </html>
