@@ -10,27 +10,29 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <!-- Header -->
+    <!-- Header Starts here -->
     <header class="fixed top-0 left-0 right-0 w-screen bg-white h-[89px] z-50">
         <div
             class=" mx-auto flex items-center justify-between lg:justify-start lg:pl-20 py-[10px] lg:pr-40 pl-0 md:px-16 pr-5 lg:gap-[280px] xl:w-[1440px] w-full h-[89px] bg-white  ">
             <img class="md:scale-100 scale-75" src="./images/logo.png" alt="">
-            <div class="font-Nunito md:flex hidden">
+            <nav class="font-Nunito md:flex hidden">
                 <ul class="flex lg:gap-10 md:gap-7 gap-5 md:text-[15px] text-[12px] text-tertiarySub">
                     <li class="text-tertiary border-b border-tertiarySub">Home</li>
                     <li>About Us</li>
                     <li>Services</li>
                     <li>About Us</li>
                 </ul>
-            </div>
+            </nav>
             <div class="w-5 flex md:hidden cursor-pointer"><img src="./images/hamburger.png" alt=""></div>
         </div>
     </header>
+    <!-- Header End here-->
 
-    <!-- All Content of Home Page -->
-    <section class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito ">
-        <!-- Landing Page -->
-        <div class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen"
+    <!-- All Content of Home Page Starts Here-->
+    <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito ">
+        <!-- Landing Page Container Section Start -->
+        <section
+            class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen"
             data-aos="fade-down">
             <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] px-5  ">
                 <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-secondary">Your Partner in Business
@@ -55,10 +57,11 @@
             </div>
             <img class="2xl:w-[725px] max-w-[725px] lg:w-[625px] w-full xl:ml-0 lg:-ml-[80px] lg:mt-0 -mt-32 h-auto"
                 src="./images/home-image1.png" alt="">
-        </div>
+        </section>
+        <!-- Landing Page Container Section End -->
 
-        <!-- Another Container -->
-        <div
+        <!-- Services Container Section Start -->
+        <section
             class="relative flex items-center justify-center lg:h-[534px] p-10 bg-backgroundColor overflow-hidden font-semibold ">
             <div class="circle absolute -top-20 -left-36 bg-primary"></div>
             <div class="circle absolute -bottom-24 -right-48 bg-primary"></div>
@@ -79,9 +82,11 @@
                     <p>Event Management</p>
                 </div>
             </div>
-        </div>
-        <!-- Another Container About Us-->
-        <div
+        </section>
+        <!-- Services Container Section End -->
+
+        <!-- About Us Container Section Start-->
+        <section
             class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] w-full overflow-hidden">
             <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
             <div class="circle absolute bottom-2 -right-48 bg-tertiary"></div>
@@ -100,22 +105,24 @@
                 <button
                     class="bg-tertiary xl:text-base md:text-sm text-xs text-white xl:px-10 xl:py-4 px-8 py-3 rounded-lg">Get
                     Started</button>
-
             </div>
-        </div>
+        </section>
+        <!-- About Us Container Section Start-->
 
-        <!-- Another Container Logos-->
-        <div class="flex  items-center justify-center min-h-[207px] py-14" data-aos="fade-up">
+        <!-- Logos Container Section Start-->
+        <section class="flex  items-center justify-center min-h-[207px] py-14" data-aos="fade-up">
             <div class="flex flex-wrap gap-7 items-center justify-center bg-white">
                 <img class="lg:w-[246px] w-[150px] h-auto" src="./images/home-image6.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="./images/home-image7.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="./images/home-image8.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="./images/home-image9.png" alt="">
             </div>
-        </div>
+        </section>
+        <!-- Logos Container Section End-->
 
-        <!-- Another Container Video-->
-        <div class="lg:px-[67px] lg:py-[62px] md:px-8 md:py-8 px-5 py-5  flex justify-center">
+
+        <!-- Video Container Section Star t-->
+        <section class="lg:px-[67px] lg:py-[62px] md:px-8 md:py-8 px-5 py-5  flex justify-center">
             <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden" data-aos="zoom-in">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/wAmbDCJocJM?si=WIKJo1AJedSgzh7p"
                     title="YouTube video player" frameborder="0"
@@ -123,10 +130,12 @@
                     allowfullscreen>
                 </iframe>
             </div>
-        </div>
+        </section>
+        <!-- Video Container Section End -->
 
-        <!-- Another Container Testimonial-->
-        <div
+
+        <!-- Testimonial Container Section Start -->
+        <section
             class="relative flex flex-col items-center justify-center gap-[15px] bg-backgroundColor p-5 w-full h-[781px] font-Poppins overflow-hidden">
             <div class="circle absolute top-10 -left-52 bg-primary"></div>
             <div class="circle absolute -top-24 -right-52 bg-primary"></div>
@@ -265,10 +274,13 @@
                 <div class="swiper-button-next absolute -right-14 top-48 "><img src="./images/triangle.png" alt="">
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Testimonial Container Section End -->
 
-        <!-- Another Container last -->
-        <div class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5" data-aos="zoom-out">
+
+        <!-- Contact Us Section Container Start-->
+        <section class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5"
+            data-aos="zoom-out">
             <div
                 class="flex xl:flex-row flex-col items-center justify-center bg-tertiary md:p-[50px] px-5 font-Poppins rounded-[18px] w-[1290px]">
                 <div class=" flex flex-col items-start gap-[25px] h-[416px] justify-center sm:w-[537px]">
@@ -296,10 +308,10 @@
                 </div>
                 <img class="md:w-[676px] h-auto md:mt-0 -mt-10" src="./images/rocketman.png" alt="">
             </div>
-        </div>
+        </section>
+        <!-- Contact Us Section Container End-->
 
-
-        <!-- Footer -->
+        <!-- Footer Section Start-->
         <Footer class="flex justify-center font-Poppins w-full bg-backgroundColor">
             <div class=" xl:w-[1440px] w-full flex md:flex-row flex-col p-[60px] md:gap-[150px] gap-5">
                 <div class="flex xl:flex-row flex-col xl:gap-[150px] gap-5">
@@ -342,9 +354,11 @@
                 </div>
             </div>
         </Footer>
+        <!-- Footer Section Start End-->
 
 
-    </section>
+    </main>
+    <!-- All Content of Home Page End Here-->
 
 
 
