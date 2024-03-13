@@ -12,7 +12,7 @@ const params = {
         enabled: true,
     },
     breakpoints: {
-        1025: {
+        1281: {
             slidesPerView: 2,
             slidesPerGroup: 1,
         },
