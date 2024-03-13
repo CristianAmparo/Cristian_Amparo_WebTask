@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link href="./css/output.css" rel="stylesheet">
-    <title>Home</title>
+    <title>About</title>
 </head>
 
-<body class="overflow-x-hidden">
+<body>
     <!-- Header Starts here -->
     <header class="fixed top-0 left-0 right-0 w-screen bg-white h-[89px] z-50">
         <div
@@ -18,10 +18,10 @@
             <img class="md:scale-100 scale-75" src="./images/logo.png" alt="">
             <nav class="font-Nunito md:flex hidden">
                 <ul class="flex lg:gap-10 md:gap-7 gap-5 md:text-[15px] text-[12px] text-tertiarySub">
-                    <a href="index.html" class="activeNav">
+                    <a href="index.html">
                         <li>Home</li>
                     </a>
-                    <a href="about.html">
+                    <a href="about.html" class="activeNav">
                         <li>About Us</li>
                     </a>
                     <a href="services.html">
@@ -39,35 +39,30 @@
 
     <!-- All Content of Home Page Starts Here-->
     <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito ">
-        <!-- Landing Page Container Section Start -->
+
+        <!-- About Us Container Section Start-->
         <section
-            class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen"
-            data-aos="fade-down">
-            <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] px-5  ">
-                <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-secondary">Your Partner in Business
-                    Success
-                </h3>
-                <h1
-                    class="2xl:text-[80px] md:text-[70px] text-[40px] -my-5 font-extrabold text-headingColor textShadow">
-                    AMT AGENCY
+            class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] xl:h-screen w-full overflow-hidden ">
+            <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
+            <div class="circle absolute bottom-2 -right-48 bg-tertiary"></div>
+            <img class="w-[567px] h-auto" src="./images/home-image5.png" alt="" data-aos="fade-right">
+            <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center px-5"
+                data-aos="fade-left">
+                <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-black">About Us</h3>
+                <h1 class="2xl:text-[50px] md:text-[50px] text-[30px]  font-bold text-tertiary">
+                    Innovation at Every Step
                 </h1>
-                <p class="2xl:text-[16px] md:text-[14px] text-[12px] text-tertiary">Forge a powerful alliance with a
-                    team that
-                    understands your goals.
-                    We're not just
-                    service providers;
-                    we're your partners
-                    in success
+                <p class="2xl:text-[16px] md:text-[14px] text-[12px] text-black">At AMT, we believe in the power of
+                    [industry/niche] to transform businesses and shape meaningful experiences. Our journey began
+                    with a simple yet powerful vision - to redefine the standards of excellence in [industry/niche]
+                    by blending innovation, creativity, and unwavering commitment.
                 </p>
                 <button
                     class="bg-tertiary xl:text-base md:text-sm text-xs text-white xl:px-10 xl:py-4 px-8 py-3 rounded-lg">Get
                     Started</button>
-
             </div>
-            <img class="2xl:w-[725px] max-w-[725px] lg:w-[625px] w-full xl:ml-0 lg:-ml-[80px] lg:mt-0 -mt-32 h-auto"
-                src="./images/home-image1.png" alt="">
         </section>
-        <!-- Landing Page Container Section End -->
+        <!-- About Us Container Section Start-->
 
         <!-- Services Container Section Start -->
         <section
@@ -94,54 +89,41 @@
         </section>
         <!-- Services Container Section End -->
 
-        <!-- About Us Container Section Start-->
+        <!-- Offer Container Section Start-->
         <section
-            class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] w-full overflow-hidden">
+            class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center  w-full overflow-hidden md:p-[60px] p-5 font-Nunito">
             <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
-            <div class="circle absolute bottom-2 -right-48 bg-tertiary"></div>
-            <img class="w-[567px] h-auto" src="./images/home-image5.png" alt="" data-aos="fade-right">
-            <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center px-5"
-                data-aos="fade-left">
-                <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-black">About Us</h3>
-                <h1 class="2xl:text-[50px] md:text-[50px] text-[30px]  font-bold text-tertiary">
-                    Innovation at Every Step
-                </h1>
-                <p class="2xl:text-[16px] md:text-[14px] text-[12px] text-black">At AMT, we believe in the power of
-                    [industry/niche] to transform businesses and shape meaningful experiences. Our journey began
-                    with a simple yet powerful vision - to redefine the standards of excellence in [industry/niche]
-                    by blending innovation, creativity, and unwavering commitment.
-                </p>
-                <button
-                    class="bg-tertiary xl:text-base md:text-sm text-xs text-white xl:px-10 xl:py-4 px-8 py-3 rounded-lg">Get
-                    Started</button>
+            <div class="circle absolute -bottom-24 -right-48 bg-tertiary"></div>
+            <div class="flex flex-col gap-[30px]">
+                <div class="text-center ">
+                    <h3 class="md:text-[20px] text-[16px] font-bold p-2">Our Team</h3>
+                    <h1 class="md:text-[50px] text-2xl font-bold text-tertiary">What We Offer</h1>
+                </div>
+                <div class="flex items-center justify-center p-[10px] gap-[10px] flex-wrap " data-aos="fade-right">
+                    <div class="flex flex-col justify-center items-center ">
+                        <img class=" w-[304px] h-[237px]" src="./images/team/image1.png" alt="">
+                        <h3 class="text-[20px] font-medium">Ethan Mitchell</h3>
+                        <p class="text-[16px]">CEO</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-[304px] h-[237px]" src="./images/team/image2.png" alt="">
+                        <h3 class="text-[20px] font-medium">Olivia Anderson</h3>
+                        <p class="text-[16px]">COO</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-[304px] h-[237px]" src="./images/team/image3.png" alt="">
+                        <h3 class="text-[20px] font-medium">Lucas Harrison</h3>
+                        <p class="text-[16px]">CFO</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-[304px] h-[237px]" src="./images/team/image4.png" alt="">
+                        <h3 class="text-[20px] font-medium">Sofia Bennett</h3>
+                        <p class="text-[16px]">CIO</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- About Us Container Section Start-->
-
-        <!-- Logos Container Section Start-->
-        <section class="flex  items-center justify-center min-h-[207px] py-14" data-aos="fade-up">
-            <div class="flex flex-wrap gap-7 items-center justify-center bg-white">
-                <img class="lg:w-[246px] w-[150px] h-auto" src="./images/home-image6.png" alt="">
-                <img class="lg:w-[246px] w-[150px]" src="./images/home-image7.png" alt="">
-                <img class="lg:w-[246px] w-[150px]" src="./images/home-image8.png" alt="">
-                <img class="lg:w-[246px] w-[150px]" src="./images/home-image9.png" alt="">
-            </div>
-        </section>
-        <!-- Logos Container Section End-->
-
-
-        <!-- Video Container Section Star t-->
-        <section class="lg:px-[67px] lg:py-[62px] md:px-8 md:py-8 px-5 py-5  flex justify-center">
-            <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden" data-aos="zoom-in">
-                <iframe class="w-full h-full" src="https://www.youtube.com/embed/wAmbDCJocJM?si=WIKJo1AJedSgzh7p"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </section>
-        <!-- Video Container Section End -->
-
+        <!-- Offer Container Section End-->
 
         <!-- Testimonial Container Section Start -->
         <section
@@ -279,49 +261,16 @@
                     </swiper-slide>
                 </swiper-container>
                 <div class="swiper-button-prev absolute -left-14 top-48 rotate-180 "><img src="./images/triangle.png"
-                        alt=""></div>
+                        alt="">
+                </div>
                 <div class="swiper-button-next absolute -right-14 top-48 "><img src="./images/triangle.png" alt="">
                 </div>
             </div>
         </section>
         <!-- Testimonial Container Section End -->
 
-
-        <!-- Contact Us Section Container Start-->
-        <section class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5"
-            data-aos="zoom-out">
-            <div
-                class="flex xl:flex-row flex-col items-center justify-center bg-tertiary md:p-[50px] px-5 font-Poppins rounded-[18px] w-[1290px]">
-                <div class=" flex flex-col items-start gap-[25px] h-[416px] justify-center sm:w-[537px]">
-                    <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] text-white">Your Partner in Business
-                        Success</h3>
-                    <h1 class="2xl:text-[40px] md:text-[30px] text-[25px]  font-bold text-headingColor">
-                        Got A Question? We Would Be Happy To Help!
-                    </h1>
-                    <p class="2xl:text-[16px] md:text-[14px] font-Nunito text-[12px] text-white">Forge a powerful
-                        alliance with a
-                        team that understands your goals. We're not just service providers; we're your partners
-                        in success
-                    </p>
-                    <div class="flex gap-[10px]">
-                        <button
-                            class="flex items-center gap-[10px] bg-headingColor font-bold xl:text-base md:text-sm text-xs text-white xl:px-10 xl:py-4 px-8 py-3 rounded-lg">
-                            <img class="md:w-3 w-2" src="./images/facebook.png" alt="">
-                            Visit Us
-                        </button>
-                        <button
-                            class="bg-secondary font-bold xl:text-base md:text-sm text-xs text-white xl:px-10 xl:py-4 px-8 py-3 rounded-lg">Contact
-                            Us</button>
-                    </div>
-
-                </div>
-                <img class="md:w-[676px] h-auto md:mt-0 -mt-10" src="./images/rocketman.png" alt="">
-            </div>
-        </section>
-        <!-- Contact Us Section Container End-->
-
         <!-- Footer Section Start-->
-        <Footer class="flex justify-center font-Poppins w-full bg-backgroundColor">
+        <Footer class="flex justify-center font-Poppins w-full bg-white">
             <div class=" xl:w-[1440px] w-full flex md:flex-row flex-col p-[60px] md:gap-[150px] gap-5">
                 <div class="flex xl:flex-row flex-col xl:gap-[150px] gap-5">
                     <img class="w-[83px] h-[46px]" src="./images/logo.png" alt="">
@@ -367,15 +316,11 @@
 
 
     </main>
-    <!-- All Content of Home Page End Here-->
-
-
+    <!-- All Content of Home Page Ends Here-->
 
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/script.js"></script>
-
-
 
 </html>
