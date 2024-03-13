@@ -27,3 +27,11 @@ body {
 input {
     @apply border border-tertiary md:h-[62px] h-[50px] rounded-[30px] md:px-[34px] px-[24px] py-[14px] font-Poppins text-[#5C6061]
 }
+
+.navBigScreen {
+    @apply flex lg:gap-10 md:gap-7 gap-5 md:text-[15px] text-[12px] text-tertiarySub
+}
+
+.navResponsive {
+    @apply flex flex-col fixed top-14 left-0 right-0 w-screen p-5 items-center justify-center md:text-[15px] text-[12px] text-tertiarySub bg-white
+}
