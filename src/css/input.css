@@ -33,5 +33,9 @@ input {
 }
 
 .navResponsive {
-    @apply flex flex-col fixed top-14 left-0 right-0 w-screen p-5 items-center justify-center md:text-[15px] text-[12px] text-tertiarySub bg-white
+    @apply flex flex-col fixed top-16 left-0 right-0 w-screen p-5 items-center justify-center md:text-[15px] text-[12px] text-tertiarySub bg-white shadow-md
+}
+
+button:hover, a:hover {
+    @apply brightness-90 scale-95
 }

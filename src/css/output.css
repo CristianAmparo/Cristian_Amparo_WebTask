@@ -1053,11 +1053,6 @@ video {
   background-color: rgb(0 128 128 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
 .bg-tertiary{
   --tw-bg-opacity: 1;
   background-color: rgb(255 111 97 / var(--tw-bg-opacity));
@@ -1169,6 +1164,11 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[12px\]{
   font-size: 12px;
 }
@@ -1246,11 +1246,6 @@ video {
 .text-tertiary{
   --tw-text-opacity: 1;
   color: rgb(255 111 97 / var(--tw-text-opacity));
-}
-
-.text-tertiarySub{
-  --tw-text-opacity: 1;
-  color: rgb(255 165 0 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1369,7 +1364,7 @@ input{
 
 .navResponsive{
   position: fixed;
-  top: 3.5rem;
+  top: 4rem;
   left: 0px;
   right: 0px;
   display: flex;
@@ -1383,12 +1378,23 @@ input{
   font-size: 12px;
   --tw-text-opacity: 1;
   color: rgb(255 165 0 / var(--tw-text-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 768px){
   .navResponsive{
     font-size: 15px;
   }
+}
+
+button:hover, a:hover{
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-brightness: brightness(.9);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 640px){
@@ -1420,14 +1426,6 @@ input{
 @media (min-width: 768px){
   .md\:mt-0{
     margin-top: 0px;
-  }
-
-  .md\:flex{
-    display: flex;
-  }
-
-  .md\:hidden{
-    display: none;
   }
 
   .md\:h-\[176px\]{
@@ -1488,10 +1486,6 @@ input{
     justify-content: center;
   }
 
-  .md\:gap-7{
-    gap: 1.75rem;
-  }
-
   .md\:gap-\[150px\]{
     gap: 150px;
   }
@@ -1535,10 +1529,6 @@ input{
 
   .md\:text-\[14px\]{
     font-size: 14px;
-  }
-
-  .md\:text-\[15px\]{
-    font-size: 15px;
   }
 
   .md\:text-\[18px\]{
@@ -1598,10 +1588,6 @@ input{
 
   .lg\:justify-start{
     justify-content: flex-start;
-  }
-
-  .lg\:gap-10{
-    gap: 2.5rem;
   }
 
   .lg\:gap-\[280px\]{

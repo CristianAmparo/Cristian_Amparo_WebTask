@@ -54,7 +54,7 @@ window.addEventListener('resize', checkScreenSize);
 
 AOS.init({
     offset: 400,
-    delay: 150,
+    delay: 100,
 });
 const swiperEl = document.querySelector('swiper-container');
 
