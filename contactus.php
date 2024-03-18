@@ -40,7 +40,7 @@ include('components/header.php');
         <!-- Form Section Container Ends here-->
 
         <!-- Contacts Container Section Start -->
-        <section class="relative flex items-center justify-center lg:h-[534px] p-10 bg-backgroundColor overflow-hidden font-semibold ">
+        <section class="relative flex items-center justify-center min-h-[534px] p-10 bg-backgroundColor overflow-hidden font-semibold ">
             <div class="circle absolute -top-32 -left-56 bg-primary"></div>
             <div class="circle absolute -bottom-36 -right-48 bg-primary"></div>
             <div class="flex flex-wrap justify-center font-Poppins gap-[50px] p-[10px] items-center">

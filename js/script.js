@@ -30,7 +30,6 @@ function checkScreenSize() {
     const screenSizeThreshold = 640; // Adjust this value based on your desired screen size threshold
     const isSmallScreen = window.innerWidth < screenSizeThreshold;
 
-    // Access your element by ID
     var navlist = document.getElementById('navlist');
 
     // Check the conditions and toggle the class accordingly
@@ -45,19 +44,21 @@ function checkScreenSize() {
     }
 }
 
-
 // Initial check when the script is loaded
 checkScreenSize();
 
 // Attach the checkScreenSize function to the resize event
 window.addEventListener('resize', checkScreenSize);
 
+// Animation On Scroll General Init
 AOS.init({
     offset: 400,
     delay: 100,
 });
-const swiperEl = document.querySelector('swiper-container');
+const swiperEl = document.querySelector('.swiper-container');
 
+
+//Swiper 
 const params = {
     centeredSlides: false,
     slidesPerGroupSkip: 1,
