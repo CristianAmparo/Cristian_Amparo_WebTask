@@ -91,7 +91,9 @@ include('components/header.php');
         <!-- Map Container Section End -->
 
         <!-- Include Footer-->
-        <?php include('components/footer.php') ?>
+        <div class="bg-backgroundColor w-full">
+            <?php include('components/footer.php') ?>
+        </div>
 
 
 

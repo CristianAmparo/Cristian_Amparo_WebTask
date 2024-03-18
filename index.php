@@ -95,7 +95,10 @@ include('components/header.php');
         <!-- Contact Us Section Container End-->
 
         <!-- Include Footer-->
-        <?php include('components/footer.php') ?>
+        <div class="bg-backgroundColor w-full">
+            <?php include('components/footer.php') ?>
+        </div>
+
 
 
     </main>
