@@ -27,9 +27,6 @@ swiper-slide img {
         transition: transform 100ms;
     }
 
-
-
-
     swiper-container[dir="rtl"] swiper-slide.swiper-slide-next:nth-child(2) {
         transform: translateX(-55%);
     }
