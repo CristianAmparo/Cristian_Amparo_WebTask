@@ -55,7 +55,7 @@ AOS.init({
     offset: 400,
     delay: 100,
 });
-const swiperEl = document.querySelector('.swiper-container');
+const swiperEl = document.querySelector('swiper-container');
 
 
 //Swiper 
