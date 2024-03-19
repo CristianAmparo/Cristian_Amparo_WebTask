@@ -47,36 +47,34 @@ include('components/header.php');
                 <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="50">
                     <img class="w-[70px] h-[70px]" src="./images/contact/email.png" alt="">
                     <h3 class="text-[20px] font-medium ">Email</h3>
-                    <div>
+                    <div class="w-[216px] text-center font-normal">
                         <p>(51) 123-123456</p>
                         <p>(51) 123-123456</p>
                     </div>
                 </div>
 
-                <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="70">
-                    <img class="w-[70px] h-[70px]" src="./images/contact/email.png" alt="">
-                    <h3 class="text-[20px] font-medium ">Email</h3>
-                    <div>
-                        <p>(51) 123-123456</p>
-                        <p>(51) 123-123456</p>
+                <div class=" w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="70">
+                    <img class="w-[70px] h-[70px]" src="./images/contact/address.png" alt="">
+                    <h3 class="text-[20px] font-medium ">Address</h3>
+                    <div class="w-[216px] text-center font-normal">
+                        <p>talentus@gmail.com</p>
                     </div>
                 </div>
 
                 <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="90">
-                    <img class="w-[70px] h-[70px]" src="./images/contact/email.png" alt="">
-                    <h3 class="text-[20px] font-medium ">Email</h3>
-                    <div>
-                        <p>(51) 123-123456</p>
-                        <p>(51) 123-123456</p>
+                    <img class="w-[70px] h-[70px]" src="./images/contact/clock.png" alt="">
+                    <h3 class="text-[20px] font-medium ">Working Hours</h3>
+                    <div class="w-[216px] text-center font-normal">
+                        <p>Rockwell Center, 5/F Phinma Plaza, 39 Plaza Dr, Makati, 1200 Metro Manila</p>
                     </div>
                 </div>
 
                 <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="110">
-                    <img class="w-[70px] h-[70px]" src="./images/contact/email.png" alt="">
-                    <h3 class="text-[20px] font-medium ">Email</h3>
-                    <div>
-                        <p>(51) 123-123456</p>
-                        <p>(51) 123-123456</p>
+                    <img class="w-[70px] h-[70px]" src="./images/contact/phone.png" alt="">
+                    <h3 class="text-[20px] font-medium ">Phone</h3>
+                    <div class="w-[216px] text-center font-normal">
+                        <p>(09) 123-123456</p>
+                        <p>(09) 123-123456</p>
                     </div>
                 </div>
 

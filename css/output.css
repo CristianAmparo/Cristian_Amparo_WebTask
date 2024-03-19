@@ -1038,6 +1038,10 @@ video {
   width: 150px;
 }
 
+.w-\[216px\]{
+  width: 216px;
+}
+
 .w-\[271px\]{
   width: 271px;
 }
@@ -2492,6 +2496,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .uppercase{
