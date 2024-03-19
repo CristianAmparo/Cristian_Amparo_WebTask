@@ -25,9 +25,9 @@
                         every
                         step of the way</p>
                     <div class="flex items-center gap-7 ">
-                        <img class="w-[100px]" src="./images/testimonialprofile.png" alt="">
+                        <img class="testimonialProfile" src="./images/testimonialprofile.png" alt="">
                         <div>
-                            <h3 class="text-[20px] font-medium">Juan Bautista</h3>
+                            <h3 class="md:text-[20px] text-[16px] font-medium">Juan Bautista</h3>
                             <p>Upword CEO</p>
                         </div>
                     </div>
@@ -48,9 +48,9 @@
                         every
                         step of the way</p>
                     <div class="flex items-center gap-7 ">
-                        <img class="w-[100px]" src="./images/testimonialprofile.png" alt="">
+                        <img class="testimonialProfile" src="./images/testimonialprofile.png" alt="">
                         <div>
-                            <h3 class="text-[20px] font-medium">Juan Bautista</h3>
+                            <h3 class="md:text-[20px] text-[16px] font-medium">Juan Bautista</h3>
                             <p>Upword CEO</p>
                         </div>
                     </div>
@@ -71,9 +71,9 @@
                         every
                         step of the way</p>
                     <div class="flex items-center gap-7 ">
-                        <img class="w-[100px]" src="./images/testimonialprofile.png" alt="">
+                        <img class="testimonialProfile" src="./images/testimonialprofile.png" alt="">
                         <div>
-                            <h3 class="text-[20px] font-medium">Juan Bautista</h3>
+                            <h3 class="md:text-[20px] text-[16px] font-medium">Juan Bautista</h3>
                             <p>Upword CEO</p>
                         </div>
                     </div>
@@ -94,9 +94,9 @@
                         every
                         step of the way</p>
                     <div class="flex items-center gap-7 ">
-                        <img class="w-[100px]" src="./images/testimonialprofile.png" alt="">
+                        <img class="testimonialProfile" src="./images/testimonialprofile.png" alt="">
                         <div>
-                            <h3 class="text-[20px] font-medium">Juan Bautista</h3>
+                            <h3 class="md:text-[20px] text-[16px] font-medium">Juan Bautista</h3>
                             <p>Upword CEO</p>
                         </div>
                     </div>
@@ -117,9 +117,9 @@
                         every
                         step of the way</p>
                     <div class="flex items-center gap-7 ">
-                        <img class="w-[100px]" src="./images/testimonialprofile.png" alt="">
+                        <img class="testimonialProfile" src="./images/testimonialprofile.png" alt="">
                         <div>
-                            <h3 class="text-[20px] font-medium">Juan Bautista</h3>
+                            <h3 class="md:text-[20px] text-[16px] font-medium">Juan Bautista</h3>
                             <p>Upword CEO</p>
                         </div>
                     </div>
