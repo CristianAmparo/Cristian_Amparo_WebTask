@@ -1002,12 +1002,12 @@ video {
   min-height: 613px;
 }
 
-.min-h-\[742px\]{
-  min-height: 742px;
-}
-
 .min-h-\[685px\]{
   min-height: 685px;
+}
+
+.min-h-\[742px\]{
+  min-height: 742px;
 }
 
 .w-1\/2{
@@ -2311,24 +2311,8 @@ video {
   padding: 0.5rem;
 }
 
-.p-3{
-  padding: 0.75rem;
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
 .p-\[10px\]{
   padding: 10px;
-}
-
-.p-\[60px\]{
-  padding: 60px;
-}
-
-.p-\[50px\]{
-  padding: 50px;
 }
 
 .p-\[15px\]{
@@ -2378,12 +2362,28 @@ video {
   padding-right: 1.25rem;
 }
 
-.pt-28{
-  padding-top: 7rem;
+.pt-20{
+  padding-top: 5rem;
 }
 
 .pt-24{
   padding-top: 6rem;
+}
+
+.pt-\[80px\]{
+  padding-top: 80px;
+}
+
+.pt-\[70px\]{
+  padding-top: 70px;
+}
+
+.pt-\[50px\]{
+  padding-top: 50px;
+}
+
+.pt-\[40px\]{
+  padding-top: 40px;
 }
 
 .text-left{
@@ -3257,41 +3257,13 @@ button:hover, a:hover{
     gap: 150px;
   }
 
-  .md\:p-\[30px\]{
-    padding: 30px;
-  }
-
   .md\:p-\[50px\]{
     padding: 50px;
-  }
-
-  .md\:p-\[60px\]{
-    padding: 60px;
   }
 
   .md\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
-  }
-
-  .md\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .md\:px-\[70px\]{
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-
-  .md\:py-8{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .md\:py-\[60px\]{
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   .md\:pt-0{
@@ -3369,22 +3341,12 @@ button:hover, a:hover{
     gap: 40px;
   }
 
-  .lg\:p-\[60px\]{
-    padding: 60px;
-  }
-
   .lg\:p-\[50px\]{
     padding: 50px;
   }
 
-  .lg\:px-\[67px\]{
-    padding-left: 67px;
-    padding-right: 67px;
-  }
-
-  .lg\:py-\[62px\]{
-    padding-top: 62px;
-    padding-bottom: 62px;
+  .lg\:p-\[60px\]{
+    padding: 60px;
   }
 
   .lg\:pl-20{

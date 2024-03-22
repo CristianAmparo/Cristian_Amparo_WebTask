@@ -12,7 +12,7 @@ include('components/header.php');
         <section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 md:justify-center justify-end items-center min-h-[742px] h-screen w-full overflow-hidden padding">
             <div class="circle absolute top-20 -left-36 bg-tertiary"></div>
             <div class="circle absolute bottom-32 -right-48 bg-tertiary"></div>
-            <div class="flex gap-[30px] items-center justify-center md:pt-0 pt-28">
+            <div class="flex gap-[30px] items-center justify-center md:pt-0 pt-[40px]">
                 <img class="w-[657px] h-[582px] 2xl:flex hidden" src="./images/contactUsImage1.png" alt="" data-aos="fade-right" data-aos-delay="100">
                 <div class="lg:w-[620px] w-full " data-aos="fade-left" data-aos-delay="100">
                     <form action="" class="flex flex-col gap-[30px]">

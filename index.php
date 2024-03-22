@@ -6,7 +6,7 @@ include('components/header.php');
 
 <body class="overflow-x-hidden ">
     <!-- All Content of Home Page Starts Here-->
-    <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito bg-secondary">
+    <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito">
         <!-- Landing Page Container Section Start -->
         <section class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen padding" data-aos="fade-down">
             <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] ">
