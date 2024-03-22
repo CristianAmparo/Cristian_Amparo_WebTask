@@ -1006,6 +1006,10 @@ video {
   min-height: 742px;
 }
 
+.min-h-\[685px\]{
+  min-height: 685px;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -2323,6 +2327,14 @@ video {
   padding: 60px;
 }
 
+.p-\[50px\]{
+  padding: 50px;
+}
+
+.p-\[15px\]{
+  padding: 15px;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -2336,11 +2348,6 @@ video {
 .px-\[34px\]{
   padding-left: 34px;
   padding-right: 34px;
-}
-
-.py-14{
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .py-3{
@@ -2373,6 +2380,10 @@ video {
 
 .pt-28{
   padding-top: 7rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
 }
 
 .text-left{
@@ -2494,12 +2505,12 @@ video {
   font-weight: 500;
 }
 
-.font-semibold{
-  font-weight: 600;
-}
-
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .uppercase{
@@ -2943,6 +2954,26 @@ body {
   letter-spacing: -1.5%;
 }
 
+.padding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px){
+  .padding{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1024px){
+  .padding{
+    padding: 0px;
+  }
+}
+
 .textShadow {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 }
@@ -3263,6 +3294,10 @@ button:hover, a:hover{
     padding-bottom: 60px;
   }
 
+  .md\:pt-0{
+    padding-top: 0px;
+  }
+
   .md\:text-\[14px\]{
     font-size: 14px;
   }
@@ -3336,6 +3371,10 @@ button:hover, a:hover{
 
   .lg\:p-\[60px\]{
     padding: 60px;
+  }
+
+  .lg\:p-\[50px\]{
+    padding: 50px;
   }
 
   .lg\:px-\[67px\]{

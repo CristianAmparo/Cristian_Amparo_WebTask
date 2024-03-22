@@ -16,5 +16,8 @@ include('components/header.php');
     </section>
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
 
 </html>

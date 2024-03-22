@@ -4,12 +4,12 @@ include('components/head.php');
 include('components/header.php');
 ?>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden ">
     <!-- All Content of Home Page Starts Here-->
-    <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito ">
+    <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito bg-secondary">
         <!-- Landing Page Container Section Start -->
-        <section class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen" data-aos="fade-down">
-            <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] px-5  ">
+        <section class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen padding" data-aos="fade-down">
+            <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] ">
                 <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-secondary">Your Partner in Business
                     Success
                 </h3>
@@ -40,8 +40,8 @@ include('components/header.php');
 
 
         <!-- Logos Container Section Start-->
-        <section class="flex  items-center justify-center min-h-[207px] py-14" data-aos="fade-up">
-            <div class="flex flex-wrap gap-7 items-center justify-center bg-white">
+        <section class="flex  items-center justify-center min-h-[207px] padding" data-aos="fade-up">
+            <div class="flex flex-wrap gap-7 items-center justify-center w-full h-full">
                 <img class="lg:w-[246px] w-[150px] h-auto" src="./images/home-image6.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="./images/home-image7.png" alt="">
                 <img class="lg:w-[246px] w-[150px]" src="./images/home-image8.png" alt="">
@@ -52,7 +52,7 @@ include('components/header.php');
 
 
         <!-- Video Container Section Star t-->
-        <section class="lg:px-[67px] lg:py-[62px] md:px-8 md:py-8 px-5 py-5  flex justify-center">
+        <section class="padding  flex justify-center">
             <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden" data-aos="zoom-in">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/wAmbDCJocJM?si=WIKJo1AJedSgzh7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -66,8 +66,8 @@ include('components/header.php');
 
 
         <!-- Contact Us Section Container Start-->
-        <section class="flex items-center justify-center w-full md:px-[70px] md:py-[60px] px-5 py-5" data-aos="zoom-out">
-            <div class="flex xl:flex-row flex-col items-center justify-center bg-tertiary md:p-[50px] px-5 font-Poppins rounded-[18px] w-[1290px]">
+        <section class="flex items-center justify-center w-full padding" data-aos="zoom-out">
+            <div class="flex xl:flex-row flex-col items-center justify-center bg-tertiary font-Poppins rounded-[18px] w-[1290px] min-h-[685px] md:p-[50px] p-[15px]">
                 <div class=" flex flex-col items-start gap-[25px] h-[416px] justify-center sm:w-[537px]">
                     <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] text-white">Your Partner in Business
                         Success</h3>

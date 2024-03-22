@@ -19,7 +19,7 @@ include('components/header.php');
 
 
         <!-- Offer Container Section Start-->
-        <section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center  w-full overflow-hidden md:p-[60px] p-5 font-Nunito">
+        <section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center  w-full overflow-hidden lg:p-[50px] padding font-Nunito">
             <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
             <div class="circle absolute -bottom-24 -right-48 bg-tertiary"></div>
             <div class="flex flex-col gap-[30px]">

@@ -1,5 +1,5 @@
 <!-- Testimonial Container Section Start -->
-<section class="relative flex flex-col items-center justify-center gap-[15px] bg-backgroundColor p-5 w-full h-[781px] font-Poppins overflow-hidden">
+<section class="relative flex flex-col items-center justify-center gap-[15px] bg-backgroundColor  w-full h-[781px] font-Poppins overflow-hidden padding">
     <div class="circle absolute top-10 -left-52 bg-primary"></div>
     <div class="circle absolute -top-24 -right-52 bg-primary"></div>
     <h3 class="md:text-[20px] text-[16px] font-medium">Testimonial</h3>

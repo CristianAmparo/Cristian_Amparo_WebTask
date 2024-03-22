@@ -8,6 +8,10 @@ body {
     letter-spacing: -1.5%;
 }
 
+.padding {
+    @apply lg:p-0 py-[50px] md:px-[50px] px-[15px]
+}
+
 .textShadow {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 }

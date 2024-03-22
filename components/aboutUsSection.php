@@ -1,9 +1,9 @@
 <!-- About Us Container Section Start-->
-<section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] h-full w-full overflow-hidden">
+<section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 justify-center items-center min-h-[613px] h-full w-full overflow-hidden padding">
     <div class="circle absolute -top-20 -left-36 bg-tertiary"></div>
     <div class="circle absolute bottom-2 -right-48 bg-tertiary"></div>
     <img class="w-[567px] h-auto" src="./images/home-image5.png" alt="" data-aos="fade-right">
-    <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center px-5" data-aos="fade-left">
+    <div class=" flex flex-col items-start gap-[25px] h-[416px] sm:w-[620px] justify-center" data-aos="fade-left">
         <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-black">About Us</h3>
         <h1 class="2xl:text-[50px] md:text-[50px] text-[30px]  font-bold text-tertiary">
             Innovation at Every Step

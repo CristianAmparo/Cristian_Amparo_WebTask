@@ -1,6 +1,6 @@
 <!-- Footer Section Start-->
-<Footer class="flex justify-center font-Poppins w-full ">
-    <div class=" xl:w-[1440px] w-full flex md:flex-row flex-col p-[60px] md:gap-[150px] gap-5">
+<Footer class="flex justify-center font-Poppins w-full padding lg:p-[60px]">
+    <div class=" xl:w-[1440px] w-full flex md:flex-row flex-col  md:gap-[150px] gap-5">
         <div class="flex xl:flex-row flex-col xl:gap-[150px] gap-5">
             <img class="w-[83px] h-[46px]" src="./images/logo.png" alt="">
             <div class="flex flex-col gap-[30px]">
