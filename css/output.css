@@ -823,6 +823,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.-mt-20{
+  margin-top: -5rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -990,6 +994,14 @@ video {
   height: 100vh;
 }
 
+.h-\[386px\]{
+  height: 386px;
+}
+
+.h-\[286px\]{
+  height: 286px;
+}
+
 .min-h-\[207px\]{
   min-height: 207px;
 }
@@ -1008,6 +1020,10 @@ video {
 
 .min-h-\[742px\]{
   min-height: 742px;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-1\/2{
@@ -2362,26 +2378,6 @@ video {
   padding-right: 1.25rem;
 }
 
-.pt-20{
-  padding-top: 5rem;
-}
-
-.pt-24{
-  padding-top: 6rem;
-}
-
-.pt-\[80px\]{
-  padding-top: 80px;
-}
-
-.pt-\[70px\]{
-  padding-top: 70px;
-}
-
-.pt-\[50px\]{
-  padding-top: 50px;
-}
-
 .pt-\[40px\]{
   padding-top: 40px;
 }
@@ -3207,6 +3203,10 @@ button:hover, a:hover{
     height: 50px;
   }
 
+  .md\:h-\[486px\]{
+    height: 486px;
+  }
+
   .md\:w-3{
     width: 0.75rem;
   }
@@ -3317,6 +3317,10 @@ button:hover, a:hover{
     height: 534px;
   }
 
+  .lg\:h-screen{
+    height: 100vh;
+  }
+
   .lg\:w-\[246px\]{
     width: 246px;
   }
@@ -3365,6 +3369,10 @@ button:hover, a:hover{
 @media (min-width: 1280px){
   .xl\:ml-0{
     margin-left: 0px;
+  }
+
+  .xl\:h-screen{
+    height: 100vh;
   }
 
   .xl\:w-\[1250px\]{
