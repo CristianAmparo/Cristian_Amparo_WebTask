@@ -8,7 +8,7 @@ include('components/header.php');
     <!-- All Content of Home Page Starts Here-->
     <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito">
         <!-- Landing Page Container Section Start -->
-        <section class="flex xl:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen padding" data-aos="fade-down">
+        <section class="flex lg:flex-row flex-col items-center justify-center  gap-[30px]  lg:pl-[80px] w-full 2xl:h-screen padding" data-aos="fade-down">
             <div class="flex flex-col justify-center items-start gap-[20px]  md:w-[607px] h-[486px] md:mt-0 -mt-20">
                 <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] font-bold text-secondary">Your Partner in Business
                     Success
@@ -28,7 +28,7 @@ include('components/header.php');
                     Started</button>
 
             </div>
-            <img class="2xl:w-[725px] max-w-[725px] lg:w-[625px] w-full xl:ml-0 lg:-ml-[80px] lg:mt-0 -mt-32 h-auto" src="./images/home-image1.png" alt="">
+            <img class="xl:w-[725px] max-w-[725px] lg:w-[450px] w-full xl:ml-0 lg:-ml-[80px] lg:mt-0 -mt-32 h-auto" src="./images/home-image1.png" alt="">
         </section>
         <!-- Landing Page Container Section End -->
 
@@ -52,7 +52,7 @@ include('components/header.php');
 
 
         <!-- Video Container Section Star t-->
-        <section class="padding  flex justify-center">
+        <section class="lg:px-[67px] lg:py-[62px] py-[50px] md:px-[50px] px-[15px]  flex justify-center">
             <div class="w-[1285px] aspect-video rounded-3xl overflow-hidden" data-aos="zoom-in">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/wAmbDCJocJM?si=WIKJo1AJedSgzh7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -66,7 +66,7 @@ include('components/header.php');
 
 
         <!-- Contact Us Section Container Start-->
-        <section class="flex items-center justify-center w-full padding" data-aos="zoom-out">
+        <section class="flex items-center justify-center w-full lg:px-[67px] lg:py-[62px] py-[50px] md:px-[50px] px-[15px]" data-aos="zoom-out">
             <div class="flex xl:flex-row flex-col items-center justify-center bg-tertiary font-Poppins rounded-[18px] w-[1290px] min-h-[685px] md:p-[50px] p-[15px]">
                 <div class=" flex flex-col items-start gap-[25px] h-[416px] justify-center sm:w-[537px]">
                     <h3 class="2xl:text-[20px] md:text-[18px] text-[16px] text-white">Your Partner in Business

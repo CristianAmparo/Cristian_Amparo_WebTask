@@ -815,16 +815,16 @@ video {
   margin-top: -2.5rem;
 }
 
+.-mt-20{
+  margin-top: -5rem;
+}
+
 .-mt-32{
   margin-top: -8rem;
 }
 
 .mt-2{
   margin-top: 0.5rem;
-}
-
-.-mt-20{
-  margin-top: -5rem;
 }
 
 .box-border{
@@ -994,14 +994,6 @@ video {
   height: 100vh;
 }
 
-.h-\[386px\]{
-  height: 386px;
-}
-
-.h-\[286px\]{
-  height: 286px;
-}
-
 .min-h-\[207px\]{
   min-height: 207px;
 }
@@ -1020,10 +1012,6 @@ video {
 
 .min-h-\[742px\]{
   min-height: 742px;
-}
-
-.min-h-screen{
-  min-height: 100vh;
 }
 
 .w-1\/2{
@@ -1119,12 +1107,20 @@ video {
   width: 100vw;
 }
 
+.w-auto{
+  width: auto;
+}
+
 .max-w-\[1300px\]{
   max-width: 1300px;
 }
 
 .max-w-\[725px\]{
   max-width: 725px;
+}
+
+.max-w-\[567px\]{
+  max-width: 567px;
 }
 
 .flex-shrink{
@@ -1702,6 +1698,10 @@ video {
 
 .gap-\[50px\]{
   gap: 50px;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2345,6 +2345,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-\[15px\]{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .px-\[34px\]{
   padding-left: 34px;
   padding-right: 34px;
@@ -2370,6 +2375,11 @@ video {
   padding-bottom: 14px;
 }
 
+.py-\[50px\]{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .pl-0{
   padding-left: 0px;
 }
@@ -2380,6 +2390,14 @@ video {
 
 .pt-\[40px\]{
   padding-top: 40px;
+}
+
+.pt-\[65px\]{
+  padding-top: 65px;
+}
+
+.pt-0{
+  padding-top: 0px;
 }
 
 .text-left{
@@ -3203,10 +3221,6 @@ button:hover, a:hover{
     height: 50px;
   }
 
-  .md\:h-\[486px\]{
-    height: 486px;
-  }
-
   .md\:w-3{
     width: 0.75rem;
   }
@@ -3253,10 +3267,6 @@ button:hover, a:hover{
     justify-content: center;
   }
 
-  .md\:gap-\[150px\]{
-    gap: 150px;
-  }
-
   .md\:p-\[50px\]{
     padding: 50px;
   }
@@ -3266,8 +3276,21 @@ button:hover, a:hover{
     padding-right: 4rem;
   }
 
+  .md\:px-\[50px\]{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   .md\:pt-0{
     padding-top: 0px;
+  }
+
+  .md\:pt-\[65px\]{
+    padding-top: 65px;
+  }
+
+  .md\:pt-\[66px\]{
+    padding-top: 66px;
   }
 
   .md\:text-\[14px\]{
@@ -3302,6 +3325,10 @@ button:hover, a:hover{
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .md\:text-\[40px\]{
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1024px){
@@ -3313,12 +3340,16 @@ button:hover, a:hover{
     margin-top: 0px;
   }
 
+  .lg\:flex{
+    display: flex;
+  }
+
   .lg\:h-\[534px\]{
     height: 534px;
   }
 
-  .lg\:h-screen{
-    height: 100vh;
+  .lg\:h-\[50px\]{
+    height: 50px;
   }
 
   .lg\:w-\[246px\]{
@@ -3333,8 +3364,48 @@ button:hover, a:hover{
     width: 625px;
   }
 
+  .lg\:w-4{
+    width: 1rem;
+  }
+
+  .lg\:w-6{
+    width: 1.5rem;
+  }
+
+  .lg\:w-\[51px\]{
+    width: 51px;
+  }
+
+  .lg\:w-\[426px\]{
+    width: 426px;
+  }
+
+  .lg\:w-\[536px\]{
+    width: 536px;
+  }
+
+  .lg\:w-\[450px\]{
+    width: 450px;
+  }
+
+  .lg\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .lg\:w-\[456px\]{
+    width: 456px;
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
+  }
+
+  .lg\:gap-\[150px\]{
+    gap: 150px;
   }
 
   .lg\:gap-\[280px\]{
@@ -3345,12 +3416,30 @@ button:hover, a:hover{
     gap: 40px;
   }
 
+  .lg\:gap-\[25px\]{
+    gap: 25px;
+  }
+
   .lg\:p-\[50px\]{
     padding: 50px;
   }
 
   .lg\:p-\[60px\]{
     padding: 60px;
+  }
+
+  .lg\:px-\[67px\]{
+    padding-left: 67px;
+    padding-right: 67px;
+  }
+
+  .lg\:py-\[62px\]{
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+
+  .lg\:pb-\[50px\]{
+    padding-bottom: 50px;
   }
 
   .lg\:pl-20{
@@ -3364,6 +3453,14 @@ button:hover, a:hover{
   .lg\:pr-40{
     padding-right: 10rem;
   }
+
+  .lg\:pt-\[50px\]{
+    padding-top: 50px;
+  }
+
+  .lg\:pt-0{
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 1280px){
@@ -3371,8 +3468,8 @@ button:hover, a:hover{
     margin-left: 0px;
   }
 
-  .xl\:h-screen{
-    height: 100vh;
+  .xl\:h-\[582px\]{
+    height: 582px;
   }
 
   .xl\:w-\[1250px\]{
@@ -3385,6 +3482,18 @@ button:hover, a:hover{
 
   .xl\:w-\[992px\]{
     width: 992px;
+  }
+
+  .xl\:w-\[567px\]{
+    width: 567px;
+  }
+
+  .xl\:w-\[725px\]{
+    width: 725px;
+  }
+
+  .xl\:w-\[667px\]{
+    width: 667px;
   }
 
   .xl\:flex-row{
