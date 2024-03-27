@@ -966,10 +966,6 @@ video {
   height: 486px;
 }
 
-.h-\[582px\]{
-  height: 582px;
-}
-
 .h-\[70px\]{
   height: 70px;
 }
@@ -1066,14 +1062,6 @@ video {
   width: 40px;
 }
 
-.w-\[567px\]{
-  width: 567px;
-}
-
-.w-\[657px\]{
-  width: 657px;
-}
-
 .w-\[70px\]{
   width: 70px;
 }
@@ -1107,20 +1095,12 @@ video {
   width: 100vw;
 }
 
-.w-auto{
-  width: auto;
-}
-
 .max-w-\[1300px\]{
   max-width: 1300px;
 }
 
 .max-w-\[725px\]{
   max-width: 725px;
-}
-
-.max-w-\[567px\]{
-  max-width: 567px;
 }
 
 .flex-shrink{
@@ -1656,6 +1636,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -1698,10 +1682,6 @@ video {
 
 .gap-\[50px\]{
   gap: 50px;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2388,16 +2368,20 @@ video {
   padding-right: 1.25rem;
 }
 
+.pt-0{
+  padding-top: 0px;
+}
+
 .pt-\[40px\]{
   padding-top: 40px;
 }
 
-.pt-\[65px\]{
-  padding-top: 65px;
+.pt-\[50px\]{
+  padding-top: 50px;
 }
 
-.pt-0{
-  padding-top: 0px;
+.pt-\[100px\]{
+  padding-top: 100px;
 }
 
 .text-left{
@@ -3217,28 +3201,12 @@ button:hover, a:hover{
     height: 322px;
   }
 
-  .md\:h-\[50px\]{
-    height: 50px;
-  }
-
   .md\:w-3{
     width: 0.75rem;
   }
 
-  .md\:w-4{
-    width: 1rem;
-  }
-
-  .md\:w-6{
-    width: 1.5rem;
-  }
-
   .md\:w-\[454px\]{
     width: 454px;
-  }
-
-  .md\:w-\[51px\]{
-    width: 51px;
   }
 
   .md\:w-\[573px\]{
@@ -3285,10 +3253,6 @@ button:hover, a:hover{
     padding-top: 0px;
   }
 
-  .md\:pt-\[65px\]{
-    padding-top: 65px;
-  }
-
   .md\:pt-\[66px\]{
     padding-top: 66px;
   }
@@ -3313,6 +3277,10 @@ button:hover, a:hover{
     font-size: 32px;
   }
 
+  .md\:text-\[40px\]{
+    font-size: 40px;
+  }
+
   .md\:text-\[50px\]{
     font-size: 50px;
   }
@@ -3324,10 +3292,6 @@ button:hover, a:hover{
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:text-\[40px\]{
-    font-size: 40px;
   }
 }
 
@@ -3344,24 +3308,16 @@ button:hover, a:hover{
     display: flex;
   }
 
-  .lg\:h-\[534px\]{
-    height: 534px;
-  }
-
   .lg\:h-\[50px\]{
     height: 50px;
   }
 
-  .lg\:w-\[246px\]{
-    width: 246px;
+  .lg\:h-\[534px\]{
+    height: 534px;
   }
 
-  .lg\:w-\[620px\]{
-    width: 620px;
-  }
-
-  .lg\:w-\[625px\]{
-    width: 625px;
+  .lg\:h-screen{
+    height: 100vh;
   }
 
   .lg\:w-4{
@@ -3372,28 +3328,28 @@ button:hover, a:hover{
     width: 1.5rem;
   }
 
-  .lg\:w-\[51px\]{
-    width: 51px;
+  .lg\:w-\[246px\]{
+    width: 246px;
   }
 
   .lg\:w-\[426px\]{
     width: 426px;
   }
 
-  .lg\:w-\[536px\]{
-    width: 536px;
-  }
-
   .lg\:w-\[450px\]{
     width: 450px;
   }
 
-  .lg\:w-\[500px\]{
-    width: 500px;
-  }
-
   .lg\:w-\[456px\]{
     width: 456px;
+  }
+
+  .lg\:w-\[51px\]{
+    width: 51px;
+  }
+
+  .lg\:w-\[620px\]{
+    width: 620px;
   }
 
   .lg\:flex-row{
@@ -3408,16 +3364,16 @@ button:hover, a:hover{
     gap: 150px;
   }
 
+  .lg\:gap-\[25px\]{
+    gap: 25px;
+  }
+
   .lg\:gap-\[280px\]{
     gap: 280px;
   }
 
   .lg\:gap-\[40px\]{
     gap: 40px;
-  }
-
-  .lg\:gap-\[25px\]{
-    gap: 25px;
   }
 
   .lg\:p-\[50px\]{
@@ -3438,6 +3394,11 @@ button:hover, a:hover{
     padding-bottom: 62px;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:pb-\[50px\]{
     padding-bottom: 50px;
   }
@@ -3454,12 +3415,36 @@ button:hover, a:hover{
     padding-right: 10rem;
   }
 
+  .lg\:pt-0{
+    padding-top: 0px;
+  }
+
   .lg\:pt-\[50px\]{
     padding-top: 50px;
   }
 
-  .lg\:pt-0{
-    padding-top: 0px;
+  .lg\:pt-24{
+    padding-top: 6rem;
+  }
+
+  .lg\:pr-0{
+    padding-right: 0px;
+  }
+
+  .lg\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pt-\[100px\]{
+    padding-top: 100px;
+  }
+
+  .lg\:pb-\[0px\]{
+    padding-bottom: 0px;
   }
 }
 
@@ -3480,20 +3465,20 @@ button:hover, a:hover{
     width: 1440px;
   }
 
-  .xl\:w-\[992px\]{
-    width: 992px;
-  }
-
   .xl\:w-\[567px\]{
     width: 567px;
+  }
+
+  .xl\:w-\[667px\]{
+    width: 667px;
   }
 
   .xl\:w-\[725px\]{
     width: 725px;
   }
 
-  .xl\:w-\[667px\]{
-    width: 667px;
+  .xl\:w-\[992px\]{
+    width: 992px;
   }
 
   .xl\:flex-row{
@@ -3530,20 +3515,12 @@ button:hover, a:hover{
     margin-right: auto;
   }
 
-  .\32xl\:flex{
-    display: flex;
-  }
-
   .\32xl\:h-screen{
     height: 100vh;
   }
 
   .\32xl\:w-\[1440px\]{
     width: 1440px;
-  }
-
-  .\32xl\:w-\[725px\]{
-    width: 725px;
   }
 
   .\32xl\:text-\[16px\]{

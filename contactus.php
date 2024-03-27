@@ -9,10 +9,10 @@ include('components/header.php');
     <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito ">
 
         <!-- Form Section Container Starts here-->
-        <section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 md:justify-center justify-end items-center min-h-[742px] h-screen w-full overflow-hidden lg:pt-[50px] lg:pb-[50px] py-[50px] md:px-[50px] px-[15px]" data-aos="fade-down" data-aos-delay="100">
+        <section class="relative bg-white flex xl:flex-row flex-col-reverse gap-5 md:justify-center justify-end items-center min-h-[742px] h-screen w-full overflow-hidden pt-[100px] lg:pb-0 lg:px-0 py-[50px] md:px-[50px] px-[15px]" data-aos="fade-down" data-aos-delay="100">
             <div class="circle absolute top-20 -left-36 bg-tertiary"></div>
             <div class="circle absolute bottom-32 -right-48 bg-tertiary"></div>
-            <div class="flex gap-[30px] items-center justify-center md:pt-0 pt-[40px]">
+            <div class="flex gap-[30px] items-center justify-center ">
                 <img class="xl:w-[667px] lg:w-[456px] xl:h-[582px] h-auto lg:flex hidden" src="./images/contactUsImage1.png" alt="">
                 <div class="lg:w-[620px] w-full ">
                     <form action="" class="flex flex-col gap-[30px]">
@@ -53,7 +53,7 @@ include('components/header.php');
                     </div>
                 </div>
 
-                <div class=" w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="70">
+                <div class=" w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="60">
                     <img class="w-[70px] h-[70px]" src="./images/contact/address.png" alt="">
                     <h3 class="text-[20px] font-medium ">Address</h3>
                     <div class="w-[216px] text-center font-normal">
@@ -61,7 +61,7 @@ include('components/header.php');
                     </div>
                 </div>
 
-                <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="90">
+                <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="70">
                     <img class="w-[70px] h-[70px]" src="./images/contact/clock.png" alt="">
                     <h3 class="text-[20px] font-medium ">Working Hours</h3>
                     <div class="w-[216px] text-center font-normal">
@@ -69,7 +69,7 @@ include('components/header.php');
                     </div>
                 </div>
 
-                <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="110">
+                <div class="w-[271px] h-[322px] bg-white rounded-[18px] flex flex-col items-center justify-center gap-[13px] border border-tertiary" data-aos="fade-down" data-aos-delay="80">
                     <img class="w-[70px] h-[70px]" src="./images/contact/phone.png" alt="">
                     <h3 class="text-[20px] font-medium ">Phone</h3>
                     <div class="w-[216px] text-center font-normal">

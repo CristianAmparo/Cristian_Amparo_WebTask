@@ -9,7 +9,7 @@ include('components/header.php');
     <main class="3xl:w-full 2xl:w-[1440px] w-full h-auto  2xl:mx-auto  font-Nunito   ">
 
         <!-- About Us Container Section Include -->
-        <div class="h-screen bg-black flex items-center justify-center">
+        <div class="h-full flex items-center justify-center">
             <?php include('components/aboutUsSection.php') ?>
         </div>
 
