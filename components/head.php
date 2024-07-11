@@ -7,5 +7,5 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link href="./css/output.css" rel="stylesheet">
-    <title>About</title>
+    <title>Static Landing Page</title>
 </head>
